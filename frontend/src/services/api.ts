@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:8080/api';
+const API_BASE = window.location.port === '5173' ? 'http://localhost:8080/api' : '/api';
 
 export async function processPhoto(file: File): Promise<any> {
   const formData = new FormData();

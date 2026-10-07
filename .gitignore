@@ -43,3 +43,6 @@ Thumbs.db
 test_output.pdf
 *.log
 *.argfile
+*.zip
+backend/src/main/resources/static/
+pendrive_package/app-server/*.jar
